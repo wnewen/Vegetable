@@ -1,0 +1,159 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1260px;
+    height: 960px;
+    background-color: #EDF2C5;
+    font-family: Arial;
+    margin: auto;
+}
+
+.container {
+    padding: 53px 160px;
+}
+.header {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-title {
+    width: 271px;
+    height: 42px;
+    padding: 0;
+    margin-bottom: 8px;
+    margin-right: 468px;
+    font-size: 44px;
+    font-weight: 900;
+    color: #778A50;
+}
+
+.header-img {
+    display: flex;
+    align-items: flex-end;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.header-line {
+    color: #778A50;
+    border-left: 1px solid;
+    height: 25px;
+}
+
+.btn-box {
+    width: 60px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    background-color: #EDF2C5;
+    color: #778A50;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*nav*/
+
+.nav {
+    background-color: #778A50;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 18px;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list {
+    margin: 0 30px;
+    color: #EDF2C5;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+/*article*/
+
+.main-img {
+    margin-top: 20px;
+}
+
+.article-contect {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.vegetables-box {
+    margin-right: 52px;
+}
+
+.article-title {
+    background-color: #778A50;
+    height: 45px;
+    width: 444px;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: 16px;
+    color: #EDF2C5;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.vegetables-img {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box {
+    background-color: #F7FBDA;
+    margin-top: 15px;
+}
+
+.article-text {
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #7D7D7D;
+}
+
+.context-line {
+    border-bottom: 1px solid;
+    border-color: #7D7D7D;
+    width: 414px;
+    margin-left: 15px;
+}
+
+.footer {
+    background-color: #778A50;
+    height: 60px;
+    width: 1260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #EDF2C5;
+    font-size: 12px;
+}
